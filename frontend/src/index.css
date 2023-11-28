@@ -1,0 +1,48 @@
+:root{
+  --background: #FFEEC8;
+  --text-color: rgb(37, 99, 37);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  background-color: var(--background);
+}
+
+.menu-color{
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.hero-container{
+  background-color: var(--background);
+}
+
+.hero-text h1 span, .hero-text p{
+  color: var(--text-color);
+}
+
+.delivery-process h2, .benef h2{
+  color: var(--text-color);
+}
+
+.benef{
+  background-color: var(--background);
+}
+
+.slider{
+  background-image: url('../src/assets/images/b+.png');
+ 
+}
